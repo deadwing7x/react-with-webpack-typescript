@@ -23,7 +23,7 @@ module.exports = {
       },
       {
         test: /\.(css|scss)$/,
-        use: ["style-loader", "css-loader"],
+        use: ["style-loader", "css-loader", "css-modules-typescript-loader"],
       },
       {
         test: /\.(jpg|jpeg|png|gif|mp3|svg)$/,
