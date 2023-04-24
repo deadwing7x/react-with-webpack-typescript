@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: react-web-app
+    image: react-web-app
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - 8080:80
